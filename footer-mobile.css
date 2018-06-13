@@ -1,0 +1,14 @@
+/* Shift footer content to left in mobile screens */
+@media (max-width: 575px){ 
+    .copyright-title{
+        float: left;
+    }
+}
+
+/* Disclaimer container */
+@media (max-width: 768px){ 
+    .disclaimer{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
