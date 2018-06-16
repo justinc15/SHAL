@@ -109,8 +109,7 @@
                                 <h4 class="header">Like us on Facebook!</h4>
                             </div>
                             <div class="card-body" id="col-height">
-                                <div class="fb-page" id="fb-page" data-href="https://www.facebook.com/SHALUofT/" data-tabs="timeline" data-width="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/SHALUofT/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/SHALUofT/">UofT Society of Healthy Active Living</a></blockquote></div>
-                                <br>
+                                <div class="fb-page" id="fb-page" data-href="https://www.facebook.com/SHALUofT/" data-tabs="timeline" data-width="500" data-height="475" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/SHALUofT/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/SHALUofT/">UofT Society of Healthy Active Living</a></blockquote></div>
                             </div>
                         </div>
                         <br><br>
@@ -118,10 +117,10 @@
                     <div class="col-md">
                         <div class="card">
                             <div class="card-header" id="card-header-background">
-                                <h4 class="header">Come to our first event!</h4>
+                                <h4 class="header">Our Seminar Series!</h4>
                             </div>
-                            <div class="card-body">
-                                <br>
+                            <div class="card-body" id="col-height">
+                                <img class="seminar-poster" src="homepage/seminar-poster.png">
                             </div>
                         </div>
                         <br><br>
@@ -131,27 +130,27 @@
                             <div class="card-header" id="card-header-background">
                                 <h4 class="header">Get Involved!</h4>
                             </div>
-                            <div class="card-body" id="col-height">
+                            <div class="card-body">
                                 <form class="form" method="POST" action="https://formspree.io/contacts.shal@gmail.com">
-                                    <div class="container">
+                                    <div class="container" id="form-font">
                                         <div class="form-group">
                                             <i class="fa fa-user"></i>Full Name
-                                            <input type="text" class="form-control" name="Name" placeholder="Full Name..." required>
+                                            <input type="text" id="form-input" class="form-control" name="Name" placeholder="Full Name..." required>
                                         </div>
                                         <div class="form-group">
                                             <i class="fa fa-envelope"></i>Email Address
-                                            <input type="email" class="form-control" name="Email" placeholder="Email Address..." required>
+                                            <input type="email" id="form-input" class="form-control" name="Email" placeholder="Email Address..." required>
                                         </div>
                                         <div class="form-group">
                                             <i class="fa fa-comments"></i>Tell us about yourself.
-                                            <textarea class="form-control" name="Tell us about yourself." placeholder="Text here..." rows="3" required></textarea>
+                                            <textarea class="form-control" id="form-input" name="Tell us about yourself." placeholder="Text here..." rows="3" required></textarea>
                                         </div>
                                         <div class="form-group">
-                                            <i class="fa fa-question" id="icon"></i>What does a healthy active lifestyle mean to you?
-                                            <textarea class="form-control" name="What does a healthy active lifestyle mean to you?" placeholder="Text here..." rows="3" required></textarea>
+                                            <i class="fa fa-question"></i>What does a healthy active lifestyle mean to you?
+                                            <textarea class="form-control" id="form-input" name="What does a healthy active lifestyle mean to you?" placeholder="Text here..." rows="3" required></textarea>
                                         </div>
                                         <br>
-                                        <button type="submit" class="btn btn-info" id="submit-button">Submit</button>
+                                        <button type="submit" class="btn btn-info" id="form-submit-button">Submit</button>
                                     </div>
                                 </form>
                             </div>
@@ -202,7 +201,8 @@
                                         <br>
                                     </div>
                                     <div class="col-sm-9">
-                                        <p class="paragraph">More to come. Stay tuned!
+                                        <p class="paragraph">
+                                            More to come. Stay tuned!
                                         </p>
                                     </div>
                                 </div>
@@ -260,13 +260,13 @@
                         <form class="form" method="POST" action="https://formspree.io/contacts.shal@gmail.com">
                             <div class="modal-body">
                                 <div class="container">
-                                    <div class="form-group" id="input-field">
+                                    <div class="form-group">
                                         <i class="fa fa-user"></i>Name
-                                        <input type="text" class="form-control" name="Name" placeholder="Name..." required>
+                                        <input type="text" id="form-input" class="form-control" name="Name" placeholder="Name..." required>
                                     </div>
-                                    <div class="form-group" id="input-field">
+                                    <div class="form-group">
                                         <i class="fa fa-envelope"></i>Email Address
-                                        <input type="email" class="form-control" name="Email" placeholder="Email Address..." required>
+                                        <input type="email" id="form-input" class="form-control" name="Email" placeholder="Email Address..." required>
                                     </div>
                                 </div>
                             </div>

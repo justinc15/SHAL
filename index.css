@@ -133,22 +133,30 @@ nav a:hover{
     width: 100%;
 }
 
-#col-height{
-    height: 630px;
+.seminar-poster{
+    width: 100%;
 }
 
-#icon{
-    display: inline-block;
-    float: left;
+/* Get Involved Form */
+#form-font{
+    font-family: Georgia, serif;
+    font-size: 18px;
+    color: black;
 }
 
-#submit-button{
+#form-input{
+    font-family: Georgia, serif;
+    font-size: 18px;
+}
+
+#form-submit-button{
     font-family: Georgia, serif;
     font-size: 18px;
     border-color: black;
     border-width: 2px;
     float: right;
 }
+/* End of Form */
 
 .paragraph{
     font-family: Georgia, serif;

@@ -30,15 +30,12 @@
 
 #modal-content{
     font-family: Georgia, serif;
+    font-size: 18px;
     color: #4c4c4c;
 }
 
 #modalLabel{
     font-size: 24px;
-}
-
-#input-field{
-    font-size: 18px;
 }
 
 #subscribe-button{
@@ -60,6 +57,8 @@
     font-weight: bold;
 }
 
+/* RIGHT COLUMN */
+/* COPYRIGHT */
 .copyright-title{
     color: whitesmoke;
     font-family: Georgia, serif;

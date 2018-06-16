@@ -14,6 +14,14 @@
 }
 
 
+/* Control height of cards */
+@media (min-width: 768px){ 
+    #col-height{
+        height: 525px;
+    }
+}
+
+
 /* SLIDESHOW MEDIA QUERIES */
 @media (max-width: 374.98px) {
     /* Slideshow */
@@ -100,10 +108,3 @@
     }
 }
 /* END OF SLIDESHOW */
-
-/* ICONS */
-@media (min-width: 513px) and (max-width: 990px){ 
-    #icon{
-        float: none;
-    }
-}
