@@ -22,19 +22,19 @@
     font-size: 30px;
 }
 
-#modal-header{
+#subscribe-modal-header{
     background-color: #FDE699;
     border-color: #4c4c4c;
     border-width: 2px;
 }
 
-#modal-content{
+#subscribe-modal-content{
     font-family: Georgia, serif;
     font-size: 18px;
     color: #4c4c4c;
 }
 
-#modalLabel{
+#subscribe-modal-label{
     font-size: 24px;
 }
 

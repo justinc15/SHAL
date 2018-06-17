@@ -1,0 +1,25 @@
+@media (max-width: 768px){
+    .page-title{
+        text-align: center;
+    }
+}
+
+@media (max-width: 575px){
+    .section-separator{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 575px){
+    .vertical-shift{
+        display: none;
+    }
+}
+
+@media (max-width: 330px){
+    .enlarged-executive-photo{
+        width: 150px;
+        height: 150px;
+    }
+}

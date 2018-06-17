@@ -152,8 +152,6 @@ nav a:hover{
 #form-submit-button{
     font-family: Georgia, serif;
     font-size: 18px;
-    border-color: black;
-    border-width: 2px;
     float: right;
 }
 /* End of Form */

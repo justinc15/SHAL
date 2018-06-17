@@ -1,0 +1,61 @@
+.page-title{
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: black;
+}
+
+.center-content{
+    text-align: center;
+}
+
+.name{
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: black;
+}
+
+.position{
+    font-family: Georgia, serif;
+    color: #4c4c4c;
+    margin-bottom: 20px;
+}
+
+.divider{
+    border-width: 0.5px;
+    border-color: #4c4c4c;
+    margin-bottom: 20px;
+}
+
+.section-separator{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.biography{
+    font-family: Georgia, serif;
+    font-size: 16px;
+    color: black;
+}
+
+#modal-header{
+    border-width: 0px;
+}
+
+#bio-button{
+    font-family: Georgia, serif;
+    font-size: 16px;
+}
+
+.executive-photo{
+    border-radius: 50%;
+    width: 125px;
+	height: 125px;
+    margin-bottom: 15px;
+}
+
+.enlarged-executive-photo{
+    border-radius: 50%;
+    width: 225px;
+	height: 225px;
+    margin-bottom: 25px;
+}
