@@ -140,25 +140,25 @@ nav a:hover{
 /* Get Involved Form */
 #form-font{
     font-family: Georgia, serif;
-    font-size: 18px;
+    font-size: 16px;
     color: black;
 }
 
 #form-input{
     font-family: Georgia, serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 #form-submit-button{
     font-family: Georgia, serif;
-    font-size: 18px;
+    font-size: 16px;
     float: right;
 }
 /* End of Form */
 
 .paragraph{
     font-family: Georgia, serif;
-    font-size: 18px;
+    font-size: 16px;
     color: black;
 }
 

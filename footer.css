@@ -28,6 +28,11 @@
     border-width: 2px;
 }
 
+#subscribe-modal-input{
+    font-family: Georgia, serif;
+    font-size: 18px;
+}
+
 #subscribe-modal-content{
     font-family: Georgia, serif;
     font-size: 18px;

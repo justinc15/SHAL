@@ -1,0 +1,61 @@
+.page-title{
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: black;
+}
+
+.section-separator{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.center-content{
+    text-align: center;
+}
+
+.contact-logo{
+    border-radius: 50%;
+	width: 125px;
+	height: 125px;
+    margin-bottom: 15px;
+}
+
+#facebook-logo:hover{
+    opacity: 0.7;
+}
+
+.name{
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: black;
+}
+
+.contact{
+    font-family: Georgia, serif;
+    color: #4c4c4c;
+}
+
+.form-separator{
+    border-top: 3px double #4c4c4c;
+	margin: 0;
+}
+
+#contact-form-section{
+    font-family: Georgia, serif;
+    font-size: 16px;
+    color: black;
+}
+
+#contact-form-input{
+    font-family: Georgia, serif;
+    font-size: 16px;
+}
+
+#contact-form-button{
+    font-family: Georgia, serif;
+    font-size: 16px;
+}
+
+.asterisk{
+    color: red;
+}
