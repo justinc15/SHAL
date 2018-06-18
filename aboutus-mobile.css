@@ -8,6 +8,8 @@
     /* Pull text below image */
     .academicseminar-photo{
         float: none;
+        width: 100%;
+        height: auto;
         margin-right: 0px;
         margin-bottom: 50px;
     }
@@ -17,39 +19,9 @@
 @media (max-width: 500px){
     /* Pull text below image */
     .frontcampus-photo{
-        width: 350px;
         float: none;
+        width: 100%;
         margin-left: 0px;
         margin-bottom: 50px;
-    }
-    
-    /* Make image size smaller only */
-    .academicseminar-photo{
-        width: 350px;
-        height: 275px;
-    }
-}
-
-@media (max-width: 400px){
-    .frontcampus-photo{
-        width: 275px;
-        
-    }
-    
-    .academicseminar-photo{
-        width: 275px;
-        height: 200px;
-    }
-}
-
-/* Making image smaller for smallest possible screen */
-@media (max-width: 325px){
-    .frontcampus-photo{
-        width: 225px;
-    }
-    
-    .academicseminar-photo{
-        width: 225px;
-        height: 150px;
     }
 }
