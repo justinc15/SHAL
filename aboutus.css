@@ -1,0 +1,62 @@
+.page-title{
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: black;
+}
+
+.page-subtitle{
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: #4c4c4c;
+}
+
+.section-separator{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.paragraph-separator{
+    margin: 0px;
+}
+
+.paragraph{
+    font-family: Georgia, serif;
+    font-size: 16px;
+    color: black;
+}
+
+.frontcampus-photo{
+    width: 400px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    float: right;
+    display: inline-block;
+}
+
+.academicseminar-photo{
+    width: 400px;
+    height: 325px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    float: left;
+    display: inline-block;
+}
+
+/* OUR VALUES */
+.center-content{
+    text-align: center;
+}
+
+.values-photo{
+    width: 100%;
+}
+
+.card{
+    background-color: #dcdcdc;
+}
+
+.card-title{
+    font-family: Georgia, serif;
+    color: black;
+    font-size: 18px;
+}
