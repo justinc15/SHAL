@@ -1,0 +1,115 @@
+.page-title{
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: black;
+}
+
+.page-subtitle{
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: #4c4c4c;
+}
+
+.section-separator{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.paragraph-separator{
+    margin: 0px;
+}
+
+.header{
+    color: black;
+    font-family: Georgia, serif;
+    text-align: center;
+}
+
+#silver{
+    background-color: #dcdcdc;
+}
+
+#white{
+    background-color: whitesmoke;
+}
+
+#green{
+    background-color: #88e188;
+    border-color: black;
+    border-width: 2px;
+}
+
+.center-content{
+    text-align: center;
+}
+
+#learn-more-button{
+    font-family: Georgia, serif;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#facebook-button{
+    font-family: Georgia, serif;
+    font-size: 16px;
+    background: #3B5998;
+    border-color: #3B5998;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.details{
+    font-family: Georgia, serif;
+    color: black;
+    font-size: 16px;
+}
+
+.poster{
+    width: 100%;
+    height: 100%;
+}
+
+.clock-photo{
+    width: 100%;
+    height: 100%;
+}
+
+/* MODAL */
+.event-name{
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: black;
+}
+
+.info{
+    font-family: Georgia, serif;
+    color: #4c4c4c;
+    margin-bottom: 20px;
+}
+
+.divider{
+    border-width: 1px;
+    border-color: #4c4c4c;
+    margin-bottom: 20px;
+}
+
+.paragraph{
+    font-family: Georgia, serif;
+    font-size: 16px;
+    color: black;
+}
+
+#modal-header{
+    border-width: 0px;
+}
+
+#event-button{
+    font-family: Georgia, serif;
+    font-size: 16px;
+}
+
+.enlarged-poster{
+    width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+}
