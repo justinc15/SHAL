@@ -19,7 +19,8 @@
     <link href="index-mobile.css" rel="stylesheet">
     <link href="footer.css" rel="stylesheet">
     <link href="footer-mobile.css" rel="stylesheet">
-
+    <link href="events-modal.css" rel="stylesheet">
+        
     <title>Home - SHAL</title>
     <link rel="icon" href="logo.png">
     </head>
@@ -88,10 +89,13 @@
                         <img class="d-block w-100" id="slideshow-photo" src="coverphoto.png" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" id="slideshow-photo" src="homepage/mountain-biking.jpg" alt="Second slide">
+                        <img class="d-block w-100" id="slideshow-photo" src="homepage/cut-for-a-cure.jpg" alt="Second slide">
+                        <div class="carousel-caption">
+                            <button type="button" class="btn btn-info" id="learn-more-button" data-toggle="modal" data-target="#modal1">Learn More</button>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" id="slideshow-photo" src="homepage/yoga.jpeg" alt="Third slide">
+                        <img class="d-block w-100" id="slideshow-photo" src="homepage/mountain-biking.jpg" alt="Third slide">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carousel-slideshow" role="button" data-slide="prev">
@@ -103,6 +107,71 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="modal1" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header" id="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                        <img class="enlarged-poster" src="events/cut-for-a-cure.png">
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <h3 class="event-name">Cut For A Cure</h3>
+                                        <h5 class="info">
+                                            Date: TBD
+                                            <br>
+                                            Time: TBD
+                                            <br>
+                                            Location: TBD
+                                        </h5>
+                                        <hr class="divider">
+                                        <div class="paragraph">
+                                            Do you know that your hair can benefit people who lost their hair because of cancer treatment? Come out and participate in our hair donation event!<br><br>
+
+                                            If you are thinking about donating your hair during our event, please make the following preparations before coming
+                                            (more detailed requirements can be found 
+                                            <a href="http://www.cancer.ca/en/get-involved/support-us/donate-your-hair/?region=on" target="_blank">here.</a>)<br>
+                                            <ul>
+                                                <li>Hair length must be greater than 8 inches</li>
+                                                <li>Hair must be less than 5% grey</li>
+                                                <li>Hair should not contain chemicals or has been treated with chemicals (e.g. bleaching, colour or perm)</li>
+                                                <li>Hair must be cleaned (shampooed and/or conditioned) before coming to the event</li>
+                                                <li>Do not apply any hair product on the day of the event</li>
+                                                <li>Bring an elastic band</li>
+                                            </ul>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="paragraph">
+                                            If you do not want to cut your hair but wish to make a donation to the Canadian Cancer Society,
+                                            <ul>
+                                                <li>You can fill out our donation form and follow the instructions during the event.</li>
+                                                <li>If you can’t come in person, you can also donate online through the <a href="http://www.cancer.ca/en/donate/?region=on" target="_blank">Canadian Cancer Society</a> website.</li> 
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-info" id="event-button" class="btn btn-info" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
         </div>
         
         <div class="white-background"> 
@@ -191,7 +260,7 @@
                                     </div>
                                 </div>
                                 
-                                <hr class="divider">
+                                <hr class="content-divider">
                                 
                                 <div class="row">
                                     <div class="col-sm-3">
@@ -341,6 +410,7 @@
           js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0';
           fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));</script>
+        
         
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->

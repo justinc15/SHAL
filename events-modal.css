@@ -1,0 +1,33 @@
+/* MODAL */
+.event-name{
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: black;
+}
+
+.info{
+    font-family: Georgia, serif;
+    color: #4c4c4c;
+    margin-bottom: 20px;
+}
+
+.divider{
+    border-width: 1px;
+    border-color: #4c4c4c;
+    margin-bottom: 20px;
+}
+
+#modal-header{
+    border-width: 0px;
+}
+
+#event-button{
+    font-family: Georgia, serif;
+    font-size: 16px;
+}
+
+.enlarged-poster{
+    width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+}
