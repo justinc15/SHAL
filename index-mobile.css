@@ -1,9 +1,5 @@
 /* Remove title in mobile screens */
 @media (max-width: 575px){ 
-    .logo{
-        width: 160px;
-        height: 160px;
-    }
     .title{
         display: none;
     }
@@ -33,7 +29,7 @@
         height: 160px;
     }
     
-    #learn-more-button{
+    #slideshow-learn-more-button{
         font-size: 14px;
         float: right;
         margin-bottom: 75px;
@@ -50,7 +46,7 @@
         height: 200px;
     }
     
-    #learn-more-button{
+    #slideshow-learn-more-button{
         font-size: 16px;
         float: right;
         margin-bottom: 110px;
@@ -80,7 +76,7 @@
         height: 275px;
     }
     
-    #learn-more-button{
+    #slideshow-learn-more-button{
         font-size: 16px;
         margin-bottom: 15px;
     }
