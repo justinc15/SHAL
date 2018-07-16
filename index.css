@@ -143,6 +143,11 @@ nav a:hover{
     width: 100%;
 }
 
+#fb-post-col-height{
+    height: 600px;
+    overflow-y: scroll;
+}
+
 /* Get Involved Form */
 #form-font{
     font-family: Georgia, serif;
