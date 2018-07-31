@@ -188,28 +188,8 @@ nav a:hover{
     font-size: 28px;
     margin: 0px;
 }
-/* End of content */
 
-
-/* Sponsors */
 .content-divider{
     margin-bottom: 20px;
 }
-
-.portrait{
-    border-style: ridge;
-    border-color: #FDE699;
-    border-width: 10px;
-    border-radius: 20px;
-    box-shadow: 10px 10px 5px grey;
-}
-
-.sponsor{
-    font-family: Georgia, serif;
-    text-align: center;
-    color: #FDE699;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
-}
-/* End of sponsors */
+/* End of content */

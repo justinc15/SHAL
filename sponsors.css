@@ -13,3 +13,18 @@
     margin-top: 25px;
     margin-bottom: 25px;
 }
+
+/* Center logos in each section */
+.center-content{
+    text-align: center;
+}
+
+.assu-logo{
+    width: 300px;
+    height: 150px;
+}
+
+.angel-hair-salon-logo{
+    width: 375px;
+    height: 140px;
+}

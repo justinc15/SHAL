@@ -1,0 +1,19 @@
+/* Adding space in between logos vertically */
+@media (max-width: 992px){
+    .assu-logo{
+        margin-bottom: 50px;
+    }
+}
+
+/* Making all logos smaller to fit mobile screens */
+@media (max-width: 475px){
+    .assu-logo{
+        width: 200px;
+        height: 100px;
+    }
+    
+    .angel-hair-salon-logo{
+        width: 225px;
+        height: 85px;
+    }
+}
