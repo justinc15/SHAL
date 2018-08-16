@@ -1,7 +1,15 @@
 /* Adding space in between logos vertically */
 @media (max-width: 992px){
     .assu-logo{
-        margin-bottom: 50px;
+        margin-bottom: 35px;
+    }
+}
+
+/* Making logo smaller to fit page due to extreme width */
+@media (max-width: 576px){
+    .physiology-logo{
+        width: 430px;
+        height: 95px;
     }
 }
 
@@ -10,6 +18,11 @@
     .assu-logo{
         width: 200px;
         height: 100px;
+    }
+    
+    .physiology-logo{
+        width: 220px;
+        height: 50px;
     }
     
     .angel-hair-salon-logo{

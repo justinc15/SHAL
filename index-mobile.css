@@ -13,7 +13,7 @@
 /* Control height of cards */
 @media (min-width: 768px){ 
     #col-height{
-        height: 525px;
+        height: 450px;
     }
 }
 
