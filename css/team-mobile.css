@@ -1,10 +1,22 @@
+/* Allow for more top/bottom spacing between executives when screen is compressed */
+@media (min-width: 768px){
+    .enlarged-spacing{
+        display: none;
+    }
+}
+
 @media (max-width: 575px){
     .section-separator{
         margin-top: 50px;
         margin-bottom: 50px;
     }
+    
+    .enlarged-spacing{
+        display: none;
+    }
 }
 
+/* Allow for more spacing between executives in mobile version */
 @media (min-width: 575px){
     .vertical-shift{
         display: none;
