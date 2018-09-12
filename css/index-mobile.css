@@ -31,7 +31,7 @@
     
     #slideshow-learn-more-button{
         font-size: 14px;
-        float: right;
+        float: left;
         margin-bottom: 75px;
     }
 }
@@ -48,7 +48,7 @@
     
     #slideshow-learn-more-button{
         font-size: 16px;
-        float: right;
+        float: left;
         margin-bottom: 110px;
     }
 }
