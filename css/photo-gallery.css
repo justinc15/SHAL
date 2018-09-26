@@ -1,0 +1,142 @@
+/* Top */
+.logo{
+    width: 190px;
+    height: 190px;
+}
+
+.title{
+    font-family: Georgia, serif;
+    font-weight: bold;
+    text-align: right;
+    color: black;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 37px;
+}
+
+.subtitle{
+    color: #4c4c4c;
+    font-size: 22px;
+}
+/* End of Top */
+
+
+/* Navigation Bar */
+.navbar-nav > li > a {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+nav a:hover{
+	transition: font-size 1s;
+	font-size: 1.1em;
+}
+
+#nav-font-family{
+    font-family: Georgia, serif;
+    font-size: 18px;
+}
+
+#nav-color{
+    color: black;
+}
+
+.active a {
+	border-bottom: solid;
+    border-width: 2px;
+}
+/* End of Navigation Bar */
+
+
+/* Background colors */
+.peach-background{
+    background-color: #FDE699;
+}
+
+.green-background{
+    background-color: #88e188;
+}
+
+.silver-background{
+    background-color: #dcdcdc;
+}
+
+.white-background{
+    background-color: whitesmoke;
+}
+/* End of background colors */
+
+
+/* Photo Galleries*/
+
+.gallery-title{
+    font-family: Georgia,serif;
+    font-weight: bold;
+    font-size:40px;
+    text-align: center;
+}
+
+.page-title{
+    font-weight:bold;
+}
+
+#cut-for-a-cure{
+    height: 650px;
+}
+
+#carousel-photo{
+    height: 650px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#capture-the-flag{
+    height:600px;
+}
+
+#carousel-photo-2{
+    height:600px;
+    margin-right:auto;
+    margin-left: auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height:60px;
+    width: 60px;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: black;
+    opacity: 0.7;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+    content: '>';
+    font-size: 35px;
+    color: white;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 35px;
+    color: white;
+}
+
+.carousel-indicators li {
+    border-radius: 15px;
+    width: 15px;
+    height: 15px;
+    border: 2px solid black;
+    background-color: #dcdcdc;
+}
+
+.carousel-indicators .active{
+    border: 2px solid black;
+    background-color: #ADFF2F;
+}
+
+/* End of photo galleries*/
