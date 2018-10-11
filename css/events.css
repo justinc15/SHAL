@@ -58,6 +58,16 @@
     margin-bottom: 5px;
 }
 
+#photo-gallery-button{
+    font-family: Georgia, serif;
+    font-size: 16px;
+    background: #FF3342;
+    border-color: #FF3342;
+    border-width: 3px;
+    color: white;
+    margin-bottom: 5px;
+
+}
 .details{
     font-family: Georgia, serif;
     color: black;
